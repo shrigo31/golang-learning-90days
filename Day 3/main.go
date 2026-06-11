@@ -93,4 +93,21 @@ func main() {
 			fmt.Println("Employee", employees, ": Present")
 		}
 	}
+
+	//calculate the sum of 1 to 100 using loop
+
+	//sum of natural numbers formula n(n+1)/2
+	fmt.Println("Practice problem calculate the sum of 1 to 100 using loop")
+	newSum := 0
+	for i := 1; i <= 100; i++ {
+		newSum += i
+	}
+	fmt.Println("The sum is:", newSum)
+
+	// alternative carl gauss method
+	fmt.Println("Practice problem calculate the sum of 1 to 100 using formula")
+	n := 100
+	carlSum := (n * (n + 1)) / 2
+	fmt.Println("The sum is:", carlSum)
+
 }
